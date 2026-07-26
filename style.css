@@ -309,7 +309,7 @@ body {
     }
 }
 .rank-card {
-    background: rgba(255, 255, 255, 0.02);
+    background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 12px;
     padding: 30px 20px;
@@ -321,7 +321,7 @@ body {
 }
 .rank-card:hover {
     transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.03);
     border-color: rgba(0, 255, 255, 0.3);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
