@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eloboostsea.vercel.app/sitemap.xml
