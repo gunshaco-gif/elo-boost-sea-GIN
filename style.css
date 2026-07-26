@@ -259,9 +259,11 @@ body {
 }
 .game-tab-content {
     display: none;
+    background: transparent;
 }
 .game-tab-content.active {
     display: block;
+    background: transparent;
     animation: fadeIn 0.4s ease-in-out;
 }
 @keyframes fadeIn {
@@ -274,6 +276,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px 4%;
+    background: transparent;
 }
 .section-title {
     font-size: 36px;
@@ -321,7 +324,7 @@ body {
 }
 .rank-card:hover {
     transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.02);
     border-color: rgba(0, 255, 255, 0.3);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
